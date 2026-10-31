@@ -4,7 +4,6 @@
 
 **技术：** Python · Pandas · NumPy · Matplotlib · Seaborn · Spearman 相关分析  
 **样本：** 原始 119,390 条，清洗后 119,210 条  
-**完整分析：** [打开 Jupyter Notebook](notebooks/hotel_booking_cancellation_eda.ipynb)
 
 ## 项目工作
 
