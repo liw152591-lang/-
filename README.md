@@ -42,11 +42,6 @@
 
 ![相关矩阵](assets/04_spearman.png)
 
-## 运行方法
-
-1. 从 [Hotel Booking Demand（Kaggle）](https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand) 下载 `hotel_bookings.csv`，放到 `data/` 文件夹。
-2. 在本项目根目录安装依赖：`python -m pip install -r requirements.txt`。
-3. 打开 `notebooks/hotel_booking_cancellation_eda.ipynb`，按顺序运行代码。
 
 ```text
 hotel-booking-cancellation-eda/
@@ -71,6 +66,5 @@ hotel-booking-cancellation-eda/
 
 ## 数据口径与局限
 
-- 取消率按 `is_canceled=1` 的订单记录占比计算；名义房费按 `ADR × 住宿晚数` 估算，**并非酒店实际损失**。
-- 数据来自 2015–2017 年的两家酒店；分析基于观察数据，所提出的运营措施尚未经过实际干预验证。
-- 复现时需自行下载原始 CSV；仓库不包含该数据文件。
+- 取消率按 `is_canceled=1` 的订单记录占比计算；名义房费按 `ADR × 住宿晚数` 估算。
+- 数据来自 2015–2017 年的两家酒店；分析基于观察数据。
