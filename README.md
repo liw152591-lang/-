@@ -4,6 +4,7 @@
 
 **技术：** Python · Pandas · NumPy · Matplotlib · Seaborn · Spearman 相关分析  
 **样本：** 原始 119,390 条，清洗后 119,210 条  
+**[完整分析](hotel-booking-cancellation-eda/notebooks/hotel_booking_cancellation_eda.ipynb)**
 
 ## 项目工作
 
@@ -27,19 +28,19 @@
 
 **两类酒店订单与取消情况**
 
-![酒店类型取消情况](assets/01_hotel_cancellation.png)
+![酒店类型取消情况](hotel-booking-cancellation-eda/assets/01_hotel_cancellation.png)
 
 **预订提前期与取消率**
 
-![预订提前期分析](assets/02_lead_time.png)
+![预订提前期分析](hotel-booking-cancellation-eda/assets/02_lead_time.png)
 
 **渠道规模、取消率与取消订单名义房费**
 
-![渠道对比](assets/03_channel_risk.png)
+![渠道对比](hotel-booking-cancellation-eda/assets/03_channel_risk.png)
 
 **数值变量相关矩阵**
 
-![相关矩阵](assets/04_spearman.png)
+![相关矩阵](hotel-booking-cancellation-eda/assets/04_spearman.png)
 
 
 ```text
